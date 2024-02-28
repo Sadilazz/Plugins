@@ -48,11 +48,11 @@ class HellClient(Client):
                         f"Client #{i+1}: '{me.first_name}' is not in Logger Group! Check and add manually for proper functioning."
                     )
                 try:
-                    await client.join_chat("https://t.me/+wQyUMn4891Q2OTVh")    # Channel
+                    await client.join_chat("https://t.me/HIRUWAZZ")    # Channel
                 except:
                     pass
                 # try:
-                #     await client.join_chat("https://t.me/+P4Ekwk7P7Rk3NzA9")  # Group
+                #     await client.join_chat("https://t.me/SL_CYBZIA")  # Group
                 # except:
                 #     pass
             except Exception as e:
@@ -110,7 +110,7 @@ class HellClient(Client):
     async def start_message(self, version: dict) -> None:
         await self.bot.send_animation(
             Config.LOGGER_ID,
-            "https://te.legra.ph/file/8deca5343c64d9db9401f.mp4",
+            "https://te.legra.ph/file/35bff824bf6e101055547.mp4",
             f"**{Symbols.check_mark} 𝖧𝖾𝗅𝗅𝖡𝗈𝗍 𝗂𝗌 𝗇𝗈𝗐 𝖮𝗇𝗅𝗂𝗇𝖾!**\n\n"
             f"**{Symbols.triangle_right} 𝖢𝗅𝗂𝖾𝗇𝗍𝗌:** `{len(self.users)}`\n"
             f"**{Symbols.triangle_right} 𝖯𝗅𝗎𝗀𝗂𝗇𝗌:** `{len(Config.CMD_MENU)}`\n"
@@ -120,7 +120,7 @@ class HellClient(Client):
             f"**{Symbols.triangle_right} 𝖧𝖾𝗅𝗅𝖡𝗈𝗍 𝖵𝖾𝗋𝗌𝗂𝗈𝗇:** `{version['hellbot']}`\n"
             f"**{Symbols.triangle_right} 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖵𝖾𝗋𝗌𝗂𝗈𝗇:** `{version['pyrogram']}`\n"
             f"**{Symbols.triangle_right} 𝖯𝗒𝗍𝗁𝗈𝗇 𝖵𝖾𝗋𝗌𝗂𝗈𝗇:** `{version['python']}`\n\n"
-            f"**</> @HellBot_Networks**",
+            f"**</> @HIRUWAZZ**",
             parse_mode=ParseMode.MARKDOWN,
             disable_notification=True,
             reply_markup=InlineKeyboardMarkup(
@@ -130,7 +130,7 @@ class HellClient(Client):
                         InlineKeyboardButton("💖 Repo", url="https://github.com/The-HellBot/HellBot"),
                     ],
                     [
-                        InlineKeyboardButton("🍀 HellBot Networks 🍀", url="https://t.me/hellbot_networks"),
+                        InlineKeyboardButton("🍀ＳＬ ＣＹＢＺＩＡ🍀", url="https://t.me/SL_CYBZIA"),
                     ],
                 ]
             ),
