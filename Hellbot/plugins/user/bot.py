@@ -93,7 +93,7 @@ async def history(client: Client, message: Message):
     hell = await hellbot.edit(message, "Processing ...")
 
     try:
-        response = await client.ask("@SangMata_BOT", f"{user.id}", timeout=60)
+        response = await client.ask("@SangMata_beta_bot", f"{user.id}", timeout=60)
     except Exception as e:
         return await hellbot.error(hell, f"`{str(e)}`")
 
