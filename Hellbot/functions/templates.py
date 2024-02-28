@@ -6,7 +6,7 @@ from Hellbot.core import ENV, db
 ALIVE_TEMPLATES = [
     (
         "•────────────────•\n"
-        "•       𝐇ᴇʟʟ𝐁ᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ        •\n"
+        "•       ＡＮＯＮＹ　Ｘ　　ＩＳ　ＡＬＩＶＥ        •\n"
         "╭────────────────•\n"
         "╰➢ ᴏᴡɴᴇʀ » {owner}\n"
         "╰➢ ᴘʏʀᴏɢʀᴀᴍ » {pyrogram}\n"
@@ -14,7 +14,7 @@ ALIVE_TEMPLATES = [
         "╰➢ ᴘʏᴛʜᴏɴ » {python}\n"
         "╰➢ ᴜᴘᴛɪᴍᴇ » {uptime}\n"
         "╰────────────────•\n"
-        "𝖡𝗒 © @HellBot_Networks\n"
+        "𝖡𝗒 © @SL_CYBZIA\n"
         "•────────────────•\n"
     ),
 ]
