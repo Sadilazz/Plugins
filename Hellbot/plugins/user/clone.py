@@ -55,7 +55,7 @@ async def clone(client: Client, message: Message):
     except:
         pass
 
-    await hell.edit("**😁 𝖧𝖾𝗅𝗅𝗈 𝗆𝗒 𝖿𝗋𝗂𝖾𝗇𝖽!**")
+    await hell.edit("**😁හී හී පකයා clone now!**")
     await hellbot.check_and_log(
         "clone",
         f"**Cloned {replied_user.mention}** ({replied_user.id}) \n\n**By:** {first_name}",
