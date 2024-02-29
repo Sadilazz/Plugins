@@ -5,7 +5,7 @@ from Hellbot.plugins.help import BotHelp
 
 
 START_MSG = """
-👋 **𝖦𝗋𝖾𝖾𝗍𝗂𝗇𝗀𝗌, {0} - 𝗐𝖺𝗋𝗋𝗂𝗈𝗋𝗌 𝗈𝖿 𝖧𝖾𝗅𝗅𝖻𝗈𝗍!** 👹 𝖨 𝖺𝗆 𝗒𝗈𝗎𝗋 𝗍𝗋𝗎𝗌𝗍𝗒 𝖼𝗈𝗆𝗉𝖺𝗇𝗂𝗈𝗇, 𝗍𝗁𝖾 **𝖧𝖾𝗅𝗅𝖻𝗈𝗍 𝖠𝗌𝗌𝗂𝗌𝗍𝖺𝗇𝗍!** 🚀
+👋 **𝖦𝗋𝖾𝖾𝗍𝗂𝗇𝗀𝗌, {0} - 𝗐𝖺𝗋𝗋𝗂𝗈𝗋𝗌 𝗈𝖿 ANONY X !** 👹 𝖨 𝖺𝗆 𝗒𝗈𝗎𝗋 𝗍𝗋𝗎𝗌𝗍𝗒 𝖼𝗈𝗆𝗉𝖺𝗇𝗂𝗈𝗇, 𝗍𝗁𝖾 **Anony x 𝖠𝗌𝗌𝗂𝗌𝗍𝖺𝗇𝗍!** 🚀
 
 𝖧𝖾𝗋𝖾 𝗍𝗈 𝗌𝖾𝗋𝗏𝖾, 𝗀𝗎𝗂𝖽𝖾, 𝖺𝗇𝖽 💪 𝗎𝗇𝗅𝖾𝖺𝗌𝗁 𝗍𝗁𝖾 𝗉𝗈𝗐𝖾𝗋 𝗈𝖿 𝖧𝖾𝗅𝗅𝖡𝗈𝗍 𝖺𝗍 𝗒𝗈𝗎𝗋 𝖼𝗈𝗆𝗆𝖺𝗇𝖽! 🎉
 𝖶𝗁𝖾𝗍𝗁𝖾𝗋 𝗂𝗍'𝗌 𝖼𝗋𝖾𝖺𝗍𝗂𝗇𝗀, 𝖽𝖾𝗅𝖾𝗍𝗂𝗇𝗀, 𝗈𝗋 𝗎𝗉𝖽𝖺𝗍𝗂𝗇𝗀 𝗒𝗈𝗎𝗋 𝗎𝗌𝖾𝗋𝖻𝗈𝗍, 𝖨'𝗏𝖾 𝗀𝗈𝗍 𝗒𝗈𝗎𝗋 𝖻𝖺𝖼𝗄.
@@ -25,5 +25,5 @@ HELP_MSG = """
 __» All commands are categorized and you can use these buttons below to navigate each category and get respective commands.__
 __» Feel free to contact us if you need any help regarding the bot.__
 
-**❤️ @HellBot_Networks 🇮🇳**
+**❤️ @SL_CYBZIA 🇮🇳**
 """
