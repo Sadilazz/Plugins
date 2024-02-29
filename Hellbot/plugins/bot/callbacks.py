@@ -11,7 +11,7 @@ from . import HELP_MSG, START_MSG, Config, Symbols, hellbot
 async def check_auth_click(cb: CallbackQuery) -> bool:
     if cb.from_user.id not in Config.AUTH_USERS:
         await cb.answer(
-            "You are not authorized to use this bot. \n\n</> @Its_HellBot",
+            "You are not authorized to use this bot. \n\n</> @USER_HIRUWAZZ_BOT",
             show_alert=True,
         )
         return False
@@ -79,7 +79,7 @@ async def bot_help_cmd_cb(_, cb: CallbackQuery):
     result += (
         f"\n\n**{Symbols.arrow_right} 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:** __{cmd_dict['description']}__"
     )
-    result += f"\n\n**<\> @SL_CYBZIA 🍀**"
+    result += f"\n\n**<\>  @USER_HIRUWAZZ_BOT 🍀**"
 
     buttons = [
         [
@@ -189,7 +189,7 @@ async def help_cmd_cb(_, cb: CallbackQuery):
     if cmd_dict["note"]:
         result += f"\n\n**{Symbols.arrow_right} 𝖭𝗈𝗍𝖾:** __{cmd_dict['note']}__"
 
-    result += f"\n\n**<\> @Its_HellBot 🍀**"
+    result += f"\n\n**<\>  @USER_HIRUWAZZ_BOT 🍀**"
 
     buttons = [
         [
@@ -266,7 +266,7 @@ async def help_close_cb(_, cb: CallbackQuery):
             "__» Anyone pretending to be the developer of this bot and selling the code, is a scammer.__\n\n"
             "__» Please consider giving a star to the repository if you liked the project.__\n"
             "__» Feel free to contact us if you need any help regarding the source code.__\n\n"
-            "**❤️ @HellBot_Networks 🇮🇳**",
+            "**❤️  @SL_CYBZIA 🇮🇳**",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
