@@ -48,7 +48,7 @@ class HellClient(Client):
                         f"Client #{i+1}: '{me.first_name}' is not in Logger Group! Check and add manually for proper functioning."
                     )
                 try:
-                    await client.join_chat("https://t.me/HIRUWAZZ")    # Channel
+                    await client.join_chat("https://t.me/+tYcGpIUO9IE1MmM1")    # Channel
                 except:
                     pass
                 # try:
@@ -130,10 +130,10 @@ class HellClient(Client):
                         InlineKeyboardButton("💖 Repo", url="https://github.com/The-HellBot/HellBot"),
                     ],
                     [
-                        InlineKeyboardButton("🍀ＳＬ ＣＹＢＺＩＡ🍀", url="https://t.me/SL_CYBZIA"),
+                        InlineKeyboardButton("♡ ʟɪᴛᴛʟᴇ ᴀɴɢᴇʟ ♡", url="https://t.me/+tYcGpIUO9IE1MmM1"),
                     ],
                 ]
-            ),
+            ), 
         )
 
     async def startup(self) -> None:
